@@ -35,17 +35,6 @@
                                     <label for="nf-password" class=" form-control-label">Deskripsi</label>
                                     <input type="text" name="deskripsi" class="form-control" value="{{ $contact->deskripsi}}">
                                 </div>
-                                {{-- <div class="form-group">
-                                    <label for="nf-password" class=" form-control-label">Cover</label>
-                                    <textarea name="cover" class="form-control">{{ $contact->cover}}</textarea>
-                                </div> --}}
-                                {{-- <div class="form-group">
-                                    <label class=" form-control-label">Cover</label>
-                                    <input type="file" name="cover" class="form-control" value=" {{ $contact->cover}}">
-                                    @error('cover')
-                                      <span class="text-danger">{{ $message}}</span>
-                                    @enderror
-                                </div> --}}
                                 <div class="form-group">
                                     <label class=" form-control-label">Cover</label>
                                     <input type="file" name="cover" class="form-control 

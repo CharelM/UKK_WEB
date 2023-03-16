@@ -27,3 +27,9 @@
       </div>      
     </div>
 @endsection
+
+{{-- halaman depan : index.blade --}}
+{{-- halaman dashboard : home blade --}}
+{{-- halaman tabel buku : contact/index.blade --}}
+{{-- halaman tambah buku :  contacts.blade.php--}}
+{{-- halaman edit buku :  contactcontroller.php--}}

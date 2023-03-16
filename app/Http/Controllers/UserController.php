@@ -19,7 +19,6 @@ class UserController extends Controller
         }else{
             $contacts = Contact::All();
         }
-        // return view('admin/contacts/index', compact('contacts'));
         return view('/index', compact('contacts'));
     }
     public function detail($id)
